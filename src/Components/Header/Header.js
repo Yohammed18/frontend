@@ -13,7 +13,7 @@ function Header() {
           
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="ml-auto">
               <LinkContainer to='/login'>
                   <Nav.Link><i className='fas fa-shopping-cart'></i>&nbsp;Login</Nav.Link>
               </LinkContainer>

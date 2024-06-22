@@ -14,8 +14,8 @@ function App(prop) {
         <main className="py-3">
           <Container>
             <Routes>
-              <Route path="/" Component={HomePage} exact/>
-              <Route path="/product/:id" Component={ProductPage} ></Route>
+              <Route path="/" element={<HomePage />} exact/>
+              <Route path="/product/:id" element={<ProductPage />} ></Route>
             </Routes>
           </Container>
         </main>

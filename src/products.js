@@ -67,7 +67,7 @@ const products = [
       brand: 'Athleisure',
       category: 'Shorts',
       price: 24.99,
-      countInStock: 25,
+      countInStock: 0,
       rating: 4.3,
       numReviews: 22,
     },
